@@ -17,3 +17,23 @@ This repository makes use of the following packages:
 1. Run `npm install` or `yarn`
 1. Run the tests with `npm test`
 1. Run the server in development mode with `npm run dev` or run it in production mode with `npm start`
+
+teas
+   index
+     ✓ should return all of the requested resources (48ms)
+   show
+     ✓ should return the resource specified if it exists
+     ✓ should return a 404 if the specified resource does not exist
+   create
+     ✓ should create a new tea if the information provided is correct
+     ✓ should return a 400 if the information provided is incorrect or invalid
+   update
+     ✓ should update an existing tea when given correct information and a correct id
+     ✓ should return a 400 if the information is invalid
+     ✓ should return a 404 if the id does not match an existing tea
+   destroy
+     ✓ should destroy an existing resource if the id matches
+     ✓ should return a 404 if the id does not match an existing tea
+
+
+ 10 passing (118ms)

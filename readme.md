@@ -1,3 +1,8 @@
+# COMPLETED
+![](/ALL-PASSING.png)
+
+
+
 # Un-RESTful -> RESTful
 
 This repository contains a very un-RESTful API. Pass the tests by changing each route into its RESTful version. For each route you may:
